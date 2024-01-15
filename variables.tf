@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "Name of the resource group"
   type        = string
-  default     = "RG"
+  default     = "bankingRG"
 }
 
 variable "location" {
@@ -31,7 +31,7 @@ variable "admin_password" {
 variable "mysql_database_name" {
   description = "Name of the MySQL database"
   type        = string
-  default     = "QRQC"
+  default     = "Banking"
 }
 
 variable "azure_subscription_id" {}
